@@ -1,16 +1,53 @@
-# helloworld
+# Flutter Bootstrap
 
-A new Flutter project.
+Projet Bootstrap pour le développement d'une application mobile avec Flutter.
 
-## Getting Started
+Ce projet propose une version refactorisée du code généré par défaut par le CLI de Flutter lors de l'initialisation d'un nouveau projet :
 
-This project is a starting point for a Flutter application.
+`flutter create helloworld`
 
-A few resources to get you started if this is your first Flutter project:
+## Organisation du projet
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Chaque branche correspond à une étape de refactoring réalisée sur la base du projet généré par
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Le dépôt git dispose de plusieurs branches correspondant chacune à une étape de refactoring.
+
+Pour consulter les branches disponibles :
+
+`git branch`
+
+Pour passer d'une branche à l'autre :
+
+`git checkout <nom-de-la-branche>`
+
+Pour afficher la version du code généré par défaut :
+
+`git checkout original`
+
+La branche "main" correspond à la dernière version du projet :
+
+`git checkout main`
+
+## Exécution du projet
+
+- Ouvrir Android Studio ou Xcode,
+- Démarrer un émulateur via AVD Manager (Android) ou Xcode Simulator (iOS),
+- Avec le terminal, se placer à la racine du projet et exécuter la commande :
+  `flutter run`
+
+## Refactoring
+
+- suppression des commentaires superflus,
+- réorganisation du contenu du fichier main.dart en plusieurs fichiers distincts
+
+---
+
+**Alexandre Leroux**
+
+alex@sherpa.one
+
+_Enseignant vacataire à l'Université de Lorraine_
+
+- IUT Nancy-Charlemagne (LP Ciasie)
+
+- Institut des Sciences du Digital (Masters Sciences Cognitives)
