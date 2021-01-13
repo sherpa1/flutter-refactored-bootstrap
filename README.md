@@ -1,4 +1,4 @@
-# hello world !
+# Flutter Bootstrap
 
 Projet Bootstrap pour le développement d'une application mobile avec Flutter.
 
